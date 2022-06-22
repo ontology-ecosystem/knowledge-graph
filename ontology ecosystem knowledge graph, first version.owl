@@ -1,0 +1,2921 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/8ZaAMLSILWcI7IN4mLiSmA#"
+     xml:base="http://webprotege.stanford.edu/project/8ZaAMLSILWcI7IN4mLiSmA"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:ontocommons="http://ontocommons.eu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/8ZaAMLSILWcI7IN4mLiSmA"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontocommons.eu/RCktCiapECDG0pug8KFSDIl -->
+
+    <owl:AnnotationProperty rdf:about="http://ontocommons.eu/RCktCiapECDG0pug8KFSDIl">
+        <rdfs:label xml:lang="en-gb">hasRepository</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://ontocommons.eu/RHTpKJo5P5uzPu3S2gwqqF -->
+
+    <owl:AnnotationProperty rdf:about="http://ontocommons.eu/RHTpKJo5P5uzPu3S2gwqqF">
+        <rdfs:label xml:lang="en-gb">hasHomepage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://ontocommons.eu/RQwIeTS8dFYtOXkJtOgHRj -->
+
+    <owl:AnnotationProperty rdf:about="http://ontocommons.eu/RQwIeTS8dFYtOXkJtOgHRj">
+        <rdfs:label xml:lang="en-gb">hasDocumentation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://ontocommons.eu/RsXHq4FwMlsRjBQ92PFibA -->
+
+    <owl:AnnotationProperty rdf:about="http://ontocommons.eu/RsXHq4FwMlsRjBQ92PFibA">
+        <rdfs:label xml:lang="en-gb">hasPublication</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5 -->
+
+    <owl:ObjectProperty rdf:about="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:range rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:label xml:lang="en-gb">input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5 -->
+
+    <owl:ObjectProperty rdf:about="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:range rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:label xml:lang="en-gb">act</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww -->
+
+    <owl:ObjectProperty rdf:about="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:range rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:label xml:lang="en-gb">output</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">input artefact reference</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe -->
+
+    <owl:ObjectProperty rdf:about="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:range rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:label xml:lang="en-gb">activity flow</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontocommons.eu/R0WSCI2cHLcJYefGd0Gavr -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R0WSCI2cHLcJYefGd0Gavr">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:label xml:lang="en-gb">ontology release candidate</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">10 ontology release candidate</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R1Ax9vRfpokdd41R9LueLa -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R1Ax9vRfpokdd41R9LueLa">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7rVLUmcBher9vH03i6ctWR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">functional ontology requirement proposal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R4iDs87fB5fOaIneCZESRK -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R4iDs87fB5fOaIneCZESRK">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7Ss7zRYJtQELwdZc8E4OFR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDhlLpavdeeCObJBFvUabKW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology encoding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R65YIUP1MClTmckJraIYnU -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R65YIUP1MClTmckJraIYnU">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDZCfz9NzgNb7ABcANbwkrC"/>
+        <rdfs:label xml:lang="en-gb">linked open terms methodology</rdfs:label>
+        <skos:prefLabel xml:lang="en">LOT methodology</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8wmEE2q1K43tJdqE6rvHin"/>
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RVASekz8IOVpvKkdAmqYH5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RzyScTEggzyQ3sDMuoT045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7hhuAsGfTbwAdmmBjOXeUk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RB2IwOzObHXftr44GBYZbl2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCHsfvPrJoI5j574yMzzCMc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology publication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R71xL82kGgmwkieFI2df4p7 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R71xL82kGgmwkieFI2df4p7">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R1Ax9vRfpokdd41R9LueLa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RE7IptDw66BXovr3KWqbAe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">use case</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">1 use case</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R7Ss7zRYJtQELwdZc8E4OFR -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R7Ss7zRYJtQELwdZc8E4OFR">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDhlLpavdeeCObJBFvUabKW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology code</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">8 ontology code</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R7exdFzNDgzFtpCjMXOiBFf -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R7exdFzNDgzFtpCjMXOiBFf">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDoYHzG0m1jNmCjNZyGjnil"/>
+        <rdfs:label xml:lang="en-gb">03 industrial domain ontology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R7hhuAsGfTbwAdmmBjOXeUk -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R7hhuAsGfTbwAdmmBjOXeUk">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8wmEE2q1K43tJdqE6rvHin"/>
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RVASekz8IOVpvKkdAmqYH5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RBPJGmuzpEVdW23w2zX3STH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R4iDs87fB5fOaIneCZESRK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R86qMwjLOFqlDLLcFjSvXy5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDjoucuThE5rJvmEhmr2BKj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology maintenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R7rVLUmcBher9vH03i6ctWR -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R7rVLUmcBher9vH03i6ctWR">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">functional ontology requirement early stage</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">4 functional ontology requirement early stage</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R7uNAkSokNwmQbKAUdStybK -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R7uNAkSokNwmQbKAUdStybK">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R1Ax9vRfpokdd41R9LueLa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDhlLpavdeeCObJBFvUabKW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RE7IptDw66BXovr3KWqbAe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">data documentation and example</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">2 data documentation and example</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R7zJcaBI9l1Xw43kRUIV50X -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R7zJcaBI9l1Xw43kRUIV50X">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCSMDYpRLn1s93xvS3HM63w"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">functional ontology requirement verified</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">5 functional ontology requirement verified</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R80ldpNZftp5QveoxDeFplO -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R80ldpNZftp5QveoxDeFplO">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCxkmvDNWgNJc89Sd4QQF8p"/>
+        <rdfs:label xml:lang="en-gb">concept-extractor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R83y8V2fTjVSYuc3o21XVsg -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R83y8V2fTjVSYuc3o21XVsg">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCxkmvDNWgNJc89Sd4QQF8p"/>
+        <rdfs:label xml:lang="en-gb">tools for constraints specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R84D0bBybUFYhHlJINzvZLd -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R84D0bBybUFYhHlJINzvZLd">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCjGBN9Q56eU6PTkeJtgbBP"/>
+        <rdfs:label xml:lang="en-gb">reasoner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R85pfi97GaY4tZxn3PMzjRd -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R85pfi97GaY4tZxn3PMzjRd">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7Ss7zRYJtQELwdZc8E4OFR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R8f0kMvgAjOEhVRnOMXPNgl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology reuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R86qMwjLOFqlDLLcFjSvXy5 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R86qMwjLOFqlDLLcFjSvXy5">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCwZu3KVXxtnE5LgoevWw3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RhlJSGbLOxt3lGiDySdF1B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology documentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8IPcE4NCdQqKMLHB3t21EM -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8IPcE4NCdQqKMLHB3t21EM">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCjGBN9Q56eU6PTkeJtgbBP"/>
+        <rdfs:label xml:lang="en-gb">query engine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8Jgvf7gAKLQjE7ZZdwxPaH -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8Jgvf7gAKLQjE7ZZdwxPaH">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDoYHzG0m1jNmCjNZyGjnil"/>
+        <rdfs:label xml:lang="en-gb">05 demonstration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8Re28uD0keONvRh6VplB8x -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8Re28uD0keONvRh6VplB8x">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCxkmvDNWgNJc89Sd4QQF8p"/>
+        <rdfs:label xml:lang="en-gb">tools for test specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8VBxDT2VWtGpn2gQZO9zdH -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8VBxDT2VWtGpn2gQZO9zdH">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R1Ax9vRfpokdd41R9LueLa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology purpose and scope</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">3 ontology purpose and scope</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8f0kMvgAjOEhVRnOMXPNgl -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8f0kMvgAjOEhVRnOMXPNgl">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R4iDs87fB5fOaIneCZESRK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R85pfi97GaY4tZxn3PMzjRd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology model</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">7 ontology model</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8f4YQYr6tWzXEnuzHDt3hN -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8f4YQYr6tWzXEnuzHDt3hN">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCIYCiF2TrkVBV9RouOGM4j"/>
+        <rdfs:label xml:lang="en-gb">validator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8f5YrTLFlPqyrkuuA19MmK -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8f5YrTLFlPqyrkuuA19MmK">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDxfHKwXrdJPnVfOeyyJ6WJ"/>
+        <rdfs:label xml:lang="en-gb">ontology engineering tool category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8nK8VADYR9iE0uQkBTwtkE -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8nK8VADYR9iE0uQkBTwtkE">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8f5YrTLFlPqyrkuuA19MmK"/>
+        <rdfs:label xml:lang="en-gb">tools for specific purposes, not elsewhere classified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8riFq7lNrXFWEFV1WeiF90 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8riFq7lNrXFWEFV1WeiF90">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9YXbaJHnkr7ullS7uRTKj9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R1Ax9vRfpokdd41R9LueLa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R4iDs87fB5fOaIneCZESRK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7hhuAsGfTbwAdmmBjOXeUk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R85pfi97GaY4tZxn3PMzjRd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9kCXRYtQhMxgHxbn8iIwyk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RB2IwOzObHXftr44GBYZbl2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RBjGT9SBXmdV72OUVdZni6u"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCHsfvPrJoI5j574yMzzCMc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCSMDYpRLn1s93xvS3HM63w"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCwZu3KVXxtnE5LgoevWw3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDhlLpavdeeCObJBFvUabKW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDjoucuThE5rJvmEhmr2BKj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RE7IptDw66BXovr3KWqbAe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RwIT8MdiWXscGWQzXbBYn7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology developer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8ujipJS50XM9uX3NSJsxA -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8ujipJS50XM9uX3NSJsxA">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDoYHzG0m1jNmCjNZyGjnil"/>
+        <rdfs:label xml:lang="en-gb">01 cooperation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R8wmEE2q1K43tJdqE6rvHin -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R8wmEE2q1K43tJdqE6rvHin">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:label xml:lang="en-gb">activities of linked open terms methodology industrial version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R946MFDAR2UAZG4CfOHZtTO -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R946MFDAR2UAZG4CfOHZtTO">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCjGBN9Q56eU6PTkeJtgbBP"/>
+        <rdfs:label xml:lang="en-gb">visualiser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R7exdFzNDgzFtpCjMXOiBFf"/>
+        <rdfs:label xml:lang="en-gb">domain ontologies of computer science, systems and electrical engineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8wmEE2q1K43tJdqE6rvHin"/>
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RVASekz8IOVpvKkdAmqYH5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9cYcwgafwGLrRN4asOLMqt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RwIT8MdiWXscGWQzXbBYn7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology implementation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:label xml:lang="en-gb">artefact of linked open terms methodology industrial version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R9YIW6d0QfpoAnIRs5kuOI6 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R9YIW6d0QfpoAnIRs5kuOI6">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RBRNHNKq7qWwpThyvrfpLgY"/>
+        <rdfs:label xml:lang="en-gb">tools for editing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R9YXbaJHnkr7ullS7uRTKj9 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R9YXbaJHnkr7ullS7uRTKj9">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA"/>
+        <rdfs:label xml:lang="en-gb">actor of linked open terms methodology industrial version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8wmEE2q1K43tJdqE6rvHin"/>
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RVASekz8IOVpvKkdAmqYH5"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDx9HfqEHXyuLaLmDM6lUCA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R85pfi97GaY4tZxn3PMzjRd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDjoucuThE5rJvmEhmr2BKj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology requirements specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R9cYcwgafwGLrRN4asOLMqt -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R9cYcwgafwGLrRN4asOLMqt">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R86qMwjLOFqlDLLcFjSvXy5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RB2IwOzObHXftr44GBYZbl2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCHsfvPrJoI5j574yMzzCMc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RhlJSGbLOxt3lGiDySdF1B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RwIT8MdiWXscGWQzXbBYn7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">evaluated ontology</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">9 evaluated ontology</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R9jdBTDVJpgz4SH9AEkmxMa -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R9jdBTDVJpgz4SH9AEkmxMa">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDtsEQjBFJGqkmjaYOLV72c"/>
+        <rdfs:label xml:lang="en-gb">repository</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R9kCXRYtQhMxgHxbn8iIwyk -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R9kCXRYtQhMxgHxbn8iIwyk">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R71xL82kGgmwkieFI2df4p7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RE7IptDw66BXovr3KWqbAe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">use case specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R7exdFzNDgzFtpCjMXOiBFf"/>
+        <rdfs:label xml:lang="en-gb">domain ontologies of physics and chemistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RB2IwOzObHXftr44GBYZbl2 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RB2IwOzObHXftr44GBYZbl2">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R7hhuAsGfTbwAdmmBjOXeUk"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RBPJGmuzpEVdW23w2zX3STH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">bug detection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RB2aPU6lABIN8cDem5HuSjV -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RB2aPU6lABIN8cDem5HuSjV">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9YXbaJHnkr7ullS7uRTKj9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7hhuAsGfTbwAdmmBjOXeUk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9kCXRYtQhMxgHxbn8iIwyk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RB2IwOzObHXftr44GBYZbl2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RBjGT9SBXmdV72OUVdZni6u"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCwZu3KVXxtnE5LgoevWw3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDhlLpavdeeCObJBFvUabKW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDjoucuThE5rJvmEhmr2BKj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RE7IptDw66BXovr3KWqbAe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology user</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">user</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RBHM69ON7JavqIYT1y46hH1 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RBHM69ON7JavqIYT1y46hH1">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCIYCiF2TrkVBV9RouOGM4j"/>
+        <rdfs:label xml:lang="en-gb">text executor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RBPJGmuzpEVdW23w2zX3STH -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RBPJGmuzpEVdW23w2zX3STH">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:label xml:lang="en-gb">issue and bug</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">13 issue and bug</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RBRNHNKq7qWwpThyvrfpLgY -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RBRNHNKq7qWwpThyvrfpLgY">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8f5YrTLFlPqyrkuuA19MmK"/>
+        <rdfs:label xml:lang="en-gb">tools for implementation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RBjGT9SBXmdV72OUVdZni6u -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RBjGT9SBXmdV72OUVdZni6u">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7uNAkSokNwmQbKAUdStybK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RE7IptDw66BXovr3KWqbAe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">data exchange identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RBqVfGVpIH2Y7NLYTBpylft -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RBqVfGVpIH2Y7NLYTBpylft">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RBRNHNKq7qWwpThyvrfpLgY"/>
+        <rdfs:label xml:lang="en-gb">tools for source editing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RC3C5yNUp5PPgJDNcaUy2HV -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RC3C5yNUp5PPgJDNcaUy2HV">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9YXbaJHnkr7ullS7uRTKj9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7hhuAsGfTbwAdmmBjOXeUk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9kCXRYtQhMxgHxbn8iIwyk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RB2IwOzObHXftr44GBYZbl2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RBjGT9SBXmdV72OUVdZni6u"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCwZu3KVXxtnE5LgoevWw3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDhlLpavdeeCObJBFvUabKW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDjoucuThE5rJvmEhmr2BKj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R8J1MmDfjiL1vFZcJQ7PLT5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RE7IptDw66BXovr3KWqbAe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">domain expert</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">expert</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCGoxr95rNNxTGPxOzjdiHr -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCGoxr95rNNxTGPxOzjdiHr">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDoYHzG0m1jNmCjNZyGjnil"/>
+        <rdfs:label xml:lang="en-gb">02 top reference ontology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCHsfvPrJoI5j574yMzzCMc -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCHsfvPrJoI5j574yMzzCMc">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R7hhuAsGfTbwAdmmBjOXeUk"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RBPJGmuzpEVdW23w2zX3STH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">new requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCIYCiF2TrkVBV9RouOGM4j -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCIYCiF2TrkVBV9RouOGM4j">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8f5YrTLFlPqyrkuuA19MmK"/>
+        <rdfs:label xml:lang="en-gb">tools for maintenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCJC2kBHYGbdvQ9Q643UhIC -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCJC2kBHYGbdvQ9Q643UhIC">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8f5YrTLFlPqyrkuuA19MmK"/>
+        <rdfs:label xml:lang="en-gb">tools for evaluation and validation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R7exdFzNDgzFtpCjMXOiBFf"/>
+        <rdfs:label xml:lang="en-gb">domain ontologies of material science and engineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCSMDYpRLn1s93xvS3HM63w -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCSMDYpRLn1s93xvS3HM63w">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDx9HfqEHXyuLaLmDM6lUCA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ORSD formalisation</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">ontology requirement specification document formalisation</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCVPez3G48oZXIuSLfW7tSE -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCVPez3G48oZXIuSLfW7tSE">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCjGBN9Q56eU6PTkeJtgbBP"/>
+        <rdfs:label xml:lang="en-gb">API/library</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCfMtzyTKVaPK7IekpPU38N -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCfMtzyTKVaPK7IekpPU38N">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDoYHzG0m1jNmCjNZyGjnil"/>
+        <rdfs:label xml:lang="en-gb">06 OntoCommons dissemination, exploitation or sustainability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCjGBN9Q56eU6PTkeJtgbBP -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCjGBN9Q56eU6PTkeJtgbBP">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8f5YrTLFlPqyrkuuA19MmK"/>
+        <rdfs:label xml:lang="en-gb">tools for use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCwZu3KVXxtnE5LgoevWw3 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCwZu3KVXxtnE5LgoevWw3">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RB2IwOzObHXftr44GBYZbl2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCHsfvPrJoI5j574yMzzCMc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RhlJSGbLOxt3lGiDySdF1B"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">HTML documentation</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">11 HTML documentation</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RCxkmvDNWgNJc89Sd4QQF8p -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RCxkmvDNWgNJc89Sd4QQF8p">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8f5YrTLFlPqyrkuuA19MmK"/>
+        <rdfs:label xml:lang="en-gb">tools for requirement specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R7exdFzNDgzFtpCjMXOiBFf"/>
+        <rdfs:label xml:lang="en-gb">domain ontologies of mechanical and industrial engineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDBVOknuYBfeFCrlJokFBhB">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7zJcaBI9l1Xw43kRUIV50X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RCSMDYpRLn1s93xvS3HM63w"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">functional ontology requirement completion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDErfp7mDUDDcm9LTURaFUx -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDErfp7mDUDDcm9LTURaFUx">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RBRNHNKq7qWwpThyvrfpLgY"/>
+        <rdfs:label xml:lang="en-gb">tools for drafting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R7exdFzNDgzFtpCjMXOiBFf"/>
+        <rdfs:label xml:lang="en-gb">domain ontologies, not elsewhere classified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDXV0hPysXxAFm5thLVjA0F -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDXV0hPysXxAFm5thLVjA0F">
+        <rdfs:label xml:lang="en-gb">OCES metadata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDZCfz9NzgNb7ABcANbwkrC -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDZCfz9NzgNb7ABcANbwkrC">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDxfHKwXrdJPnVfOeyyJ6WJ"/>
+        <rdfs:label xml:lang="en-gb">methodology for OntoCommons ecosystem toolkit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDbmOy8mjGAJaFSRVOkVHWl -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDbmOy8mjGAJaFSRVOkVHWl">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDxfHKwXrdJPnVfOeyyJ6WJ"/>
+        <rdfs:label xml:lang="en-gb">ontology engineering methodology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDhlLpavdeeCObJBFvUabKW -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDhlLpavdeeCObJBFvUabKW">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R9cYcwgafwGLrRN4asOLMqt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R4iDs87fB5fOaIneCZESRK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDjoucuThE5rJvmEhmr2BKj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology evaluation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDjoucuThE5rJvmEhmr2BKj -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDjoucuThE5rJvmEhmr2BKj">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R99I9DNkbD0kk3SEpF8OgNB"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R8f0kMvgAjOEhVRnOMXPNgl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R4iDs87fB5fOaIneCZESRK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R85pfi97GaY4tZxn3PMzjRd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ontology conceptualisation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDkqE9iA0sZLsAgzzQIMB95 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDkqE9iA0sZLsAgzzQIMB95">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RBRNHNKq7qWwpThyvrfpLgY"/>
+        <rdfs:label xml:lang="en-gb">matcher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDoYHzG0m1jNmCjNZyGjnil -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDoYHzG0m1jNmCjNZyGjnil">
+        <rdfs:label xml:lang="en-gb">OCES entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDtsEQjBFJGqkmjaYOLV72c -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDtsEQjBFJGqkmjaYOLV72c">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R8f5YrTLFlPqyrkuuA19MmK"/>
+        <rdfs:label xml:lang="en-gb">tools for publication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDx9HfqEHXyuLaLmDM6lUCA -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDx9HfqEHXyuLaLmDM6lUCA">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R4iDs87fB5fOaIneCZESRK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R85pfi97GaY4tZxn3PMzjRd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDhlLpavdeeCObJBFvUabKW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/R7OT3NO6PohOrJLP3pNztJ5"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RDjoucuThE5rJvmEhmr2BKj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">ORSD</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">6 ORSD</skos:altLabel>
+        <skos:altLabel xml:lang="en-gb">ontology requirement specification document</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RDxfHKwXrdJPnVfOeyyJ6WJ -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RDxfHKwXrdJPnVfOeyyJ6WJ">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDoYHzG0m1jNmCjNZyGjnil"/>
+        <rdfs:label xml:lang="en-gb">04 OntoCommons ecosystem toolkit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RE7IptDw66BXovr3KWqbAe -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RE7IptDw66BXovr3KWqbAe">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9ZYlFjeL09hhSKWtsEC0i6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R8VBxDT2VWtGpn2gQZO9zdH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R1Ax9vRfpokdd41R9LueLa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">purpose and scope identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RPOfazSbaBins413PulCZy -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RPOfazSbaBins413PulCZy">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R7exdFzNDgzFtpCjMXOiBFf"/>
+        <rdfs:label xml:lang="en-gb">domain ontologies of thermal and process engineering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RUWng4rNOVaPD8ARuOyOxP -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RUWng4rNOVaPD8ARuOyOxP">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDXV0hPysXxAFm5thLVjA0F"/>
+        <rdfs:label xml:lang="en-gb">methodological framework of OntoCommons ecosystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RVASekz8IOVpvKkdAmqYH5 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RVASekz8IOVpvKkdAmqYH5">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RUWng4rNOVaPD8ARuOyOxP"/>
+        <rdfs:label xml:lang="en-gb">phase of methodological framework</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RVU1W42eHsNALCPQlcTYVj -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RVU1W42eHsNALCPQlcTYVj">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDtsEQjBFJGqkmjaYOLV72c"/>
+        <rdfs:label xml:lang="en-gb">modulariser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RbhgOIpPExGu89P9Kfh4QH -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RbhgOIpPExGu89P9Kfh4QH">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RDtsEQjBFJGqkmjaYOLV72c"/>
+        <rdfs:label xml:lang="en-gb">documentor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/Rcbw7RcFWPuO6Am9c9Qp6K -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/Rcbw7RcFWPuO6Am9c9Qp6K">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RCIYCiF2TrkVBV9RouOGM4j"/>
+        <rdfs:label xml:lang="en-gb">populator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RhlJSGbLOxt3lGiDySdF1B -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RhlJSGbLOxt3lGiDySdF1B">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/RzyScTEggzyQ3sDMuoT045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R7hhuAsGfTbwAdmmBjOXeUk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">online publication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RsjifCOzDrkIX39qA4H6PA">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R65YIUP1MClTmckJraIYnU"/>
+        <rdfs:label xml:lang="en-gb">linked open terms methodology industrial version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RvorvUZvyMwojJWRvuY2P7 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RvorvUZvyMwojJWRvuY2P7">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/RVASekz8IOVpvKkdAmqYH5"/>
+        <rdfs:label xml:lang="en-gb">ontology use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RwIT8MdiWXscGWQzXbBYn7 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RwIT8MdiWXscGWQzXbBYn7">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R6LTDGtfQJymErnWelKZdd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RCju50AV9qMUYhXjW28VQww"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R0WSCI2cHLcJYefGd0Gavr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontocommons.eu/RT9ZTaZB8dVTG8Zqf8omOe"/>
+                <owl:someValuesFrom rdf:resource="http://ontocommons.eu/R86qMwjLOFqlDLLcFjSvXy5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en-gb">propose release candidate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontocommons.eu/RzyScTEggzyQ3sDMuoT045 -->
+
+    <owl:Class rdf:about="http://ontocommons.eu/RzyScTEggzyQ3sDMuoT045">
+        <rdfs:subClassOf rdf:resource="http://ontocommons.eu/R9XXxZJZYIVbsaBFHrJa98e"/>
+        <rdfs:label xml:lang="en-gb">online ontology</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">12 online ontology</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontocommons.eu/R0AyVZ4QNGwcdtD1OfmSi5 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R0AyVZ4QNGwcdtD1OfmSi5">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">MOCO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R2K2BGKeJC9GWYWsDcTdkm -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R2K2BGKeJC9GWYWsDcTdkm">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">ONTOlogy for Product Data Management</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R5gwemOeTOUq1KB8Jiq6lU -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R5gwemOeTOUq1KB8Jiq6lU">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">MatOnto</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7HeHdVP2zquIH2H6SEWIbK -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7HeHdVP2zquIH2H6SEWIbK">
+        <rdf:type rdf:resource="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG"/>
+        <rdfs:label xml:lang="en-gb">REACT Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7J5o9svKoI6E0enKBZP8u0 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7J5o9svKoI6E0enKBZP8u0">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">MSO: Manufacturing System Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7Ma08GwHwIAf9tSjc5G9Jn -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7Ma08GwHwIAf9tSjc5G9Jn">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">EMMO-Crystallography</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7O7yd1sArkrYuQZoBeyxgx -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7O7yd1sArkrYuQZoBeyxgx">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">SAREF</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7OB5c3yX9bwrmbpolEk8dE -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7OB5c3yX9bwrmbpolEk8dE">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Ontology-Aided Product Classification: A Nearest Neighbour Approach</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7OiXgX7y528sxc1f3KkN8L -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7OiXgX7y528sxc1f3KkN8L">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">Material properties ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7UqpxBzIQr0qKcERiaBPWe -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7UqpxBzIQr0qKcERiaBPWe">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">Battery INterFace Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7WveIhtb9aRD9GafZwxz5b -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7WveIhtb9aRD9GafZwxz5b">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">LPBFO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7scGUrpDIw3o7PHPjWIkU9 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7scGUrpDIw3o7PHPjWIkU9">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Z-BRE4K ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R7yTfUWsGD4el14dqwnWLpP -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R7yTfUWsGD4el14dqwnWLpP">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">EngMeta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R80FHPF8XVsbfiDVg94eyg9 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R80FHPF8XVsbfiDVg94eyg9">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCJC2kBHYGbdvQ9Q643UhIC"/>
+        <ontocommons:RCktCiapECDG0pug8KFSDIl rdf:resource="https://github.com/dbpedia/archivo"/>
+        <ontocommons:RHTpKJo5P5uzPu3S2gwqqF rdf:resource="https://archivo.dbpedia.org/"/>
+        <ontocommons:RQwIeTS8dFYtOXkJtOgHRj rdf:resource="https://github.com/dbpedia/archivo"/>
+        <ontocommons:RsXHq4FwMlsRjBQ92PFibA rdf:resource="https://svn.aksw.org/papers/2020/semantics_archivo/public.pdf"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DBPedia Archivo is an online interface and augmented archive for all kinds of vocabularies. It automatically crawls for new ontologies, updates the already enlisted ontologies regularly and performs some useful tests to check the fitness of the vocabulary for the semantic web.</dc:description>
+        <rdfs:label xml:lang="en-gb">DBPedia Archivo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R81ZqK172oJysCumTsyvQuC -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R81ZqK172oJysCumTsyvQuC">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">IDEON ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R84NLv9NKhdG0rQ3GJLsflH -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R84NLv9NKhdG0rQ3GJLsflH">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">funstep</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R86JiAdnKqRlAF3C0aVchpF -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R86JiAdnKqRlAF3C0aVchpF">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">Chemical Entities of Biological Interest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8CZBCipPm063ooUNUF5AoJ -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8CZBCipPm063ooUNUF5AoJ">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Organization ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8D9SAzDmZjxLMDpCs0c7rU -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8D9SAzDmZjxLMDpCs0c7rU">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Gist Upper entreprise ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8HCRP2TZCSq0zUrpwBnNEk -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8HCRP2TZCSq0zUrpwBnNEk">
+        <rdf:type rdf:resource="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG"/>
+        <rdfs:label xml:lang="en-gb">The Software Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8LRUmp51XEsUfKufPEmR4f -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8LRUmp51XEsUfKufPEmR4f">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">BWMD Domain Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8MHOxr7Jtfr2xL4zstGTTn -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8MHOxr7Jtfr2xL4zstGTTn">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">BONSAI ontology for product footprint concepts</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8OA0J4te285tB7If3kqh0O -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8OA0J4te285tB7If3kqh0O">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Manufacturing Marketplaces Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8PUuCxpu3sxHKLYG5F8bcM -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8PUuCxpu3sxHKLYG5F8bcM">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">TOVE ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8V5xpTVMOz1IFj9dzxrpNi -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8V5xpTVMOz1IFj9dzxrpNi">
+        <rdf:type rdf:resource="http://ontocommons.eu/RPOfazSbaBins413PulCZy"/>
+        <rdfs:label xml:lang="en-gb">SERENE – Smart and IntEgRated ENergy efficiency Evaluation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8VhPfw1BhVbFPDB0FcCD5Z -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8VhPfw1BhVbFPDB0FcCD5Z">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">A semantic knowledge management system for laminated composites</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8Xh2lqi3BAsuhGFZ4wRjPb -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8Xh2lqi3BAsuhGFZ4wRjPb">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">Chemical Analysis Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8dEkLfynbWGR2Lxz1HGQ38 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8dEkLfynbWGR2Lxz1HGQ38">
+        <rdf:type rdf:resource="http://ontocommons.eu/R8IPcE4NCdQqKMLHB3t21EM"/>
+        <rdf:type rdf:resource="http://ontocommons.eu/R946MFDAR2UAZG4CfOHZtTO"/>
+        <ontocommons:RCktCiapECDG0pug8KFSDIl rdf:resource="https://github.com/franzinc"/>
+        <ontocommons:RHTpKJo5P5uzPu3S2gwqqF rdf:resource="https://allegrograph.com/products/allegrograph/"/>
+        <ontocommons:RQwIeTS8dFYtOXkJtOgHRj rdf:resource="https://franz.com/agraph/support/documentation/current/agraph-introduction.html"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AllegroGraph is a Horizontally Distributed, Multi-model (Document and Graph), Entity-Event Knowledge Graph technology that enables businesses to extract sophisticated decision insights and predictive analytics from their highly complex, distributed data that can’t be answered with conventional databases.</dc:description>
+        <rdfs:label xml:lang="en-gb">AllegroGraph</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8eRQfV6opn9l8JpDMgo9o3 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8eRQfV6opn9l8JpDMgo9o3">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Manufacturing Service Description Language</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8iIGUI02SE8AJ20vJpzMUJ -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8iIGUI02SE8AJ20vJpzMUJ">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Generic Idea and Innovation Management Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8lT7O2aU0iJv8m4bP53G3b -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8lT7O2aU0iJv8m4bP53G3b">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">IOF-Core</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8p4dw6DZcdzZmE4Aii8Sma -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8p4dw6DZcdzZmE4Aii8Sma">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Steel Industry Ontology-ONTORULE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8qbmqsvPkb0ijUk1W7rer9 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8qbmqsvPkb0ijUk1W7rer9">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">MOL_TENSILE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8shgWpvYOctViee6q6CYdU -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8shgWpvYOctViee6q6CYdU">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Crystal Artemis project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8uR7tbKbwHGTOZREB6x1LR -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8uR7tbKbwHGTOZREB6x1LR">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">ManuService</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8uW6meZbFZZbqLjCo0DakE -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8uW6meZbFZZbqLjCo0DakE">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">Allotrope Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8yCVqx4uokPnuqMpS0AKBx -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8yCVqx4uokPnuqMpS0AKBx">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">CDFO  Common Design Features Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R8ytsLZCoEN439KHGkP69R -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R8ytsLZCoEN439KHGkP69R">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Reference ontology for industrial maintenance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R93QvPHcKDctXZJYKtTXOuT -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R93QvPHcKDctXZJYKtTXOuT">
+        <rdf:type rdf:resource="http://ontocommons.eu/RPOfazSbaBins413PulCZy"/>
+        <rdfs:label xml:lang="en-gb">MRO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R95Xojlw4x1sOapk4Y67XEY -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R95Xojlw4x1sOapk4Y67XEY">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">MESO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R97BiP0OqouSuaiJPsDDKAK -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R97BiP0OqouSuaiJPsDDKAK">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Open Assembly Model</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9A53gLSy4KBkp7ihGtK1jU -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9A53gLSy4KBkp7ihGtK1jU">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Schema.org Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9BrZwza1RG0XXYfe7cwOLx -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9BrZwza1RG0XXYfe7cwOLx">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">An ontology for Assembly representation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9Hd4nC9Eppsuk9aViFi60B -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9Hd4nC9Eppsuk9aViFi60B">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">Chemical information ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9MsQZpv6g4UtkuXePGfffJ -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9MsQZpv6g4UtkuXePGfffJ">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Supply chain knowledge management</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9N8vkDc7zdQoCX9qFSCeJ8 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9N8vkDc7zdQoCX9qFSCeJ8">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Coordinated Holistic Alignment of Manufacturing Processes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9ND2ys8H6uKKR4Sui54oZJ -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9ND2ys8H6uKKR4Sui54oZJ">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9YIW6d0QfpoAnIRs5kuOI6"/>
+        <rdf:type rdf:resource="http://ontocommons.eu/RCJC2kBHYGbdvQ9Q643UhIC"/>
+        <rdf:type rdf:resource="http://ontocommons.eu/RDErfp7mDUDDcm9LTURaFUx"/>
+        <rdf:type rdf:resource="http://ontocommons.eu/RDkqE9iA0sZLsAgzzQIMB95"/>
+        <ontocommons:RCktCiapECDG0pug8KFSDIl rdf:resource="https://github.com/apache/jena"/>
+        <ontocommons:RHTpKJo5P5uzPu3S2gwqqF rdf:resource="https://jena.apache.org/"/>
+        <ontocommons:RQwIeTS8dFYtOXkJtOgHRj rdf:resource="https://jena.apache.org/documentation/"/>
+        <ontocommons:RsXHq4FwMlsRjBQ92PFibA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B. McBride, &quot;Jena: a semantic Web toolkit,&quot; in IEEE Internet Computing, vol. 6, no. 6, pp. 55-59, Nov.-Dec. 2002, doi: 10.1109/MIC.2002.1067737. Note: this describes an early version of the toolkit.</ontocommons:RsXHq4FwMlsRjBQ92PFibA>
+        <dc:description xml:lang="en-gb">Apache Jena (or Jena in short) is a free and open source Java framework for building semantic web and Linked Data applications. The framework is composed of different APIs interacting together to process RDF data, including APIs for direct RDF data manipulation, SPARQL querying with support for federated queries and free text search, persisting data, OWL, inference and rules.</dc:description>
+        <rdfs:label xml:lang="en-gb">Apache Jena</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9Tx3jMrEcuxpZZWWInhDzM -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9Tx3jMrEcuxpZZWWInhDzM">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">EMMO-Microstructure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9ch0Evq302q1yImk0bxxV8 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9ch0Evq302q1yImk0bxxV8">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">NanoParticleOntology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9fqq281oH3cNtG0QtVsxdN -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9fqq281oH3cNtG0QtVsxdN">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">GeoCore Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9heYIiiIcqnL0RXhQIeCgi -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9heYIiiIcqnL0RXhQIeCgi">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">SOM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9nSpnQSBdtHVNgXoSk5wLw -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9nSpnQSBdtHVNgXoSk5wLw">
+        <rdf:type rdf:resource="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG"/>
+        <rdfs:label xml:lang="en-gb">EEPSA (Energy Efficiency Prediction Semantic Assistant) Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9q4dMwe96KxWA8EDQxkqLT -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9q4dMwe96KxWA8EDQxkqLT">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Additive Manufacturing Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/R9t2eMojQtNHa4XWsA7J0Y -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/R9t2eMojQtNHa4XWsA7J0Y">
+        <rdf:type rdf:resource="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG"/>
+        <rdfs:label xml:lang="en-gb">IT Service Management Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RB11EiLL8o2EBlAD5HhicUh -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RB11EiLL8o2EBlAD5HhicUh">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">The Quality ontology VB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RB4hdRspcOMa6eDekRtDqxc -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RB4hdRspcOMa6eDekRtDqxc">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Supply Chain ONTOlogy  (SCONTO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RB7TT71RFztF1eN28BhHHKB -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RB7TT71RFztF1eN28BhHHKB">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Manufacturing core concepts ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RB8gpDfKYTS2SXQYcg9J5KX -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RB8gpDfKYTS2SXQYcg9J5KX">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Semantically Integrated Manufacturing Planning Model</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBBxJtWPWwHRgySQrK5jATl -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBBxJtWPWwHRgySQrK5jATl">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Industrial MAintenance Management Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBFHURWSypovvbPzpJIo24E -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBFHURWSypovvbPzpJIo24E">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">CIF Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBFOQEHBJcA5Yoe4qC7zsoj -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBFOQEHBJcA5Yoe4qC7zsoj">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">Precipitation Model</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBIqsazeZwpcO0fNlYpubGe -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBIqsazeZwpcO0fNlYpubGe">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">MSE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBRGd3t9slV5mqki5lLm6xy -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBRGd3t9slV5mqki5lLm6xy">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">EMMO-Mechanical Testing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBRiA3EXPOvUzyUTm1EMdu8 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBRiA3EXPOvUzyUTm1EMdu8">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Semantic Types Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBcpBtn8zqYBGTuUMXGAbAQ -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBcpBtn8zqYBGTuUMXGAbAQ">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Falcon Project Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBeXzqNRqw4ylFFaxOeiXVt -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBeXzqNRqw4ylFFaxOeiXVt">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Volkswagen Vehicles Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBftZXOfwmfBtnXLO9kbarA -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBftZXOfwmfBtnXLO9kbarA">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Supply Chain Operation Reference ScorVoc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBjhuiW5UKrypSUiPSewsUa -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBjhuiW5UKrypSUiPSewsUa">
+        <rdf:type rdf:resource="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG"/>
+        <rdfs:label xml:lang="en-gb">Semantic Sensor Network Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBlUBezO8YgOj8d7Fz6nkPM -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBlUBezO8YgOj8d7Fz6nkPM">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">OZONE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBrhAC6CTUyAz08txDdpVlP -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBrhAC6CTUyAz08txDdpVlP">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Factory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBvGMTLUU7LlbLWwC6tUsT1 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBvGMTLUU7LlbLWwC6tUsT1">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Capability Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBvQ34nDBveRWHYfIXcmZn6 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBvQ34nDBveRWHYfIXcmZn6">
+        <rdf:type rdf:resource="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG"/>
+        <rdfs:label xml:lang="en-gb">Sensor Observation Sampling Actuator</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RBxL63uivKOGawYIhWFI0iS -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RBxL63uivKOGawYIhWFI0iS">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">The Plinius ontology of ceramic materials</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RByCMJrVAbYnUlFVnGO3wqD -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RByCMJrVAbYnUlFVnGO3wqD">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">BUILDMAT</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RC8abaSthu2IPmo4vHkvca6 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RC8abaSthu2IPmo4vHkvca6">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">ExtruOnt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCDgJJxm1xpfGR6Aghl5QFa -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCDgJJxm1xpfGR6Aghl5QFa">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Human Resources Management Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCJWTGe5JZGMbvL34if20w2 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCJWTGe5JZGMbvL34if20w2">
+        <rdf:type rdf:resource="http://ontocommons.eu/RPOfazSbaBins413PulCZy"/>
+        <rdfs:label xml:lang="en-gb">iso-15926</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCLIAgc7bI5aL1fs3tj3Rtb -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCLIAgc7bI5aL1fs3tj3Rtb">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">SAREF extension for industry and manufacturing domain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCO8Q8ro4Sr340MivPXGB5W -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCO8Q8ro4Sr340MivPXGB5W">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Industry 4.0 Knowledge Graph</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCOcSBxlJmqQ1PqiTrQc0OS -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCOcSBxlJmqQ1PqiTrQc0OS">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">DEB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCQTXU847e1qkls0czkbS54 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCQTXU847e1qkls0czkbS54">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">IOF-Maintenance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCQV2VHNJLc4Lanip2A9d8S -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCQV2VHNJLc4Lanip2A9d8S">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Business process Management ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCSHJ3r9iKg3S24WkORkyX8 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCSHJ3r9iKg3S24WkORkyX8">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">OntoStep</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCV7ot9Y5ArkwL3JJGXhNd1 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCV7ot9Y5ArkwL3JJGXhNd1">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">MaterialsMine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCahtQouIKKYDHVWg9zw7b -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCahtQouIKKYDHVWg9zw7b">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">VIMMP marketplace-level domain ontologies: MACRO, MMTO, OSMO, OTRAS, VICO, VISO, VIVO, and VOV.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCd1GBWlg45d85KM5PX42ZI -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCd1GBWlg45d85KM5PX42ZI">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">NanoMine: A Knowledge Graph for Nanocomposite Materials Science</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RChgRBVYh7a6uBqjXNe3IPU -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RChgRBVYh7a6uBqjXNe3IPU">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">GRACE ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RChlHZYUrKHKbSGgHXbJzPP -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RChlHZYUrKHKbSGgHXbJzPP">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Logistic Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RChsxIlSrIPUSRM2JBSk260 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RChsxIlSrIPUSRM2JBSk260">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Product Life Cycle Engine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCiD2cyVviV9UKklcDxWLDg -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCiD2cyVviV9UKklcDxWLDg">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">Reaction ontologies</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCrQR4QwFZWgtQp3gA42j3e -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCrQR4QwFZWgtQp3gA42j3e">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDErfp7mDUDDcm9LTURaFUx"/>
+        <ontocommons:RCktCiapECDG0pug8KFSDIl rdf:resource="https://github.com/oeg-upm/Chowlk"/>
+        <ontocommons:RHTpKJo5P5uzPu3S2gwqqF rdf:resource="https://chowlk.linkeddata.es/index.html"/>
+        <ontocommons:RQwIeTS8dFYtOXkJtOgHRj rdf:resource="https://chowlk.linkeddata.es/index.html"/>
+        <ontocommons:RsXHq4FwMlsRjBQ92PFibA rdf:resource="https://openreview.net/pdf?id=u1Vp2y_QE1"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chowlk is a web application that takes as input an ontology conceptualization created with diagrams.net and generates the OWL implementation. The conceptualization should follow the Chowlk visual notation which is also provided as a diagrams.net library to allow users to easily reuse the correct shapes to avoid problems during the transformation and save to time during the conceptualization.</dc:description>
+        <rdfs:label xml:lang="en-gb">Chowlk</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCrsA3wwitLn2mR6QiXsxlr -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCrsA3wwitLn2mR6QiXsxlr">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">LinkedDesign Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCtkuTtzVC2JXuikOLpfHMs -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCtkuTtzVC2JXuikOLpfHMs">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">VERsioning ONTOlogy (VERONTO)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCx29bQULLlSAccDouWlIjm -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCx29bQULLlSAccDouWlIjm">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">Ontology for Simulation, Modelling, and Optimization</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RCyKWESg19jlJyE6mnL98Gr -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RCyKWESg19jlJyE6mnL98Gr">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Product Service System (PSS)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RD02RVRa4kur2m1vDpjPKnh -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RD02RVRa4kur2m1vDpjPKnh">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">BWMD Mid Level Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RD0LKHxqAkhFIMZXRZmU3vF -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RD0LKHxqAkhFIMZXRZmU3vF">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Object-Process Methodology – OPM ISO 19450:2015</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RD1NIyyNDVozbRdbfcRWexc -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RD1NIyyNDVozbRdbfcRWexc">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">Chemical Methods Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RD25vo1JxMbDKHQ3DuyGmMJ -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RD25vo1JxMbDKHQ3DuyGmMJ">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">MAnufacturing&apos;s Semantics ONtology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RD3mSCD2kN8BhlEIPLiTzN -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RD3mSCD2kN8BhlEIPLiTzN">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Digital Construction Ontologies - entities</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDClZsRMg0AlbHxofsAaGj4 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDClZsRMg0AlbHxofsAaGj4">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">Metal-alloy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDMK9TUFLdBizDexpm1Gvva -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDMK9TUFLdBizDexpm1Gvva">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">Devices, Experimental scaffolds and Biomaterials Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDSLhZW7WeaHhKLvJ9xoQWd -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDSLhZW7WeaHhKLvJ9xoQWd">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Ontology-based system for supporting manufacturing sustainability</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDVPYnrRI7d75LFcER0I0eV -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDVPYnrRI7d75LFcER0I0eV">
+        <rdf:type rdf:resource="http://ontocommons.eu/RPOfazSbaBins413PulCZy"/>
+        <rdfs:label xml:lang="en-gb">PSL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDWXQE0vftdWQzCdqHPrcJ1 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDWXQE0vftdWQzCdqHPrcJ1">
+        <rdf:type rdf:resource="http://ontocommons.eu/RPOfazSbaBins413PulCZy"/>
+        <rdfs:label xml:lang="en-gb">EAGLET</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDewRUzb0Igd0vOZKfO6rdG -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDewRUzb0Igd0vOZKfO6rdG">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Scheduling Reference Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDgSqel9w7uSrcoGA4Q9eZA -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDgSqel9w7uSrcoGA4Q9eZA">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">TribAIn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDhmGd9grQbmfvT9AiCdagd -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDhmGd9grQbmfvT9AiCdagd">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9tzzXniLsKmmfBr5tqgz6j"/>
+        <rdfs:label xml:lang="en-gb">EMMO-Atomistic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDiVLLS520gOVq0GgDKUGWy -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDiVLLS520gOVq0GgDKUGWy">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Manufacturing Failure Prediction Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDlzIvnBZ9Gyoyoid3HvvPd -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDlzIvnBZ9Gyoyoid3HvvPd">
+        <rdf:type rdf:resource="http://ontocommons.eu/R946MFDAR2UAZG4CfOHZtTO"/>
+        <ontocommons:RCktCiapECDG0pug8KFSDIl rdf:resource="https://www.ida.liu.se/~patla00/research/AlignmentCubes/"/>
+        <ontocommons:RHTpKJo5P5uzPu3S2gwqqF rdf:resource="https://www.ida.liu.se/~patla00/research/AlignmentCubes/"/>
+        <ontocommons:RQwIeTS8dFYtOXkJtOgHRj rdf:resource="https://www.ida.liu.se/~patla00/research/AlignmentCubes/"/>
+        <ontocommons:RsXHq4FwMlsRjBQ92PFibA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ivanova V, Bach B, Pietriga E, Lambrix P, Alignment Cubes: Towards Interactive Visual Exploration and Evaluation of Multiple Ontology Alignments, 16th International Semantic Web Conference, LNCS 10587, 400-417, Vienna, Austria, 2017</ontocommons:RsXHq4FwMlsRjBQ92PFibA>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AlignmentCubes is a tool which allows for interactive visual exploration
+of several ontology alignments and thus supports alignments&apos; evaluation at different
+levels of detail.</dc:description>
+        <rdfs:label xml:lang="en-gb">Alignment Cubes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDrwXujzWw62lCqwYomt6AI -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDrwXujzWw62lCqwYomt6AI">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">VAR ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDuEBxteCMYJyrfcCJj7Fv6 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDuEBxteCMYJyrfcCJj7Fv6">
+        <rdf:type rdf:resource="http://ontocommons.eu/RPOfazSbaBins413PulCZy"/>
+        <rdfs:label xml:lang="en-gb">Supply Chain Management Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RDzvHyclRgX7YFlMWs9oxP8 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RDzvHyclRgX7YFlMWs9oxP8">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">AsD Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RGmlmMZtKIPJ5RFhxoDf8c -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RGmlmMZtKIPJ5RFhxoDf8c">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Manufacturing System Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RHfL9bQVWwa6TefJJb6MO5 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RHfL9bQVWwa6TefJJb6MO5">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Digital Manufacturability Analysis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RKAbDhWLwWFwLslfKbzeRH -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RKAbDhWLwWFwLslfKbzeRH">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">RosettaNet PIP</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RL5hqaY4R9nbM8B5yMAtix -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RL5hqaY4R9nbM8B5yMAtix">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">Entreprise ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RMnyJw38FcP5A1zdqZxS1c -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RMnyJw38FcP5A1zdqZxS1c">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Building ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RQzh3AnvWIEX38cqg6sf3Q -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RQzh3AnvWIEX38cqg6sf3Q">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">P-PSO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RR6zwWFtn2l3WXAlC9gbQY -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RR6zwWFtn2l3WXAlC9gbQY">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">AMONTOLOGY</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RUuvuOD4UJrVmmLwUzLV3K -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RUuvuOD4UJrVmmLwUzLV3K">
+        <rdf:type rdf:resource="http://ontocommons.eu/RDObj7CjlwefuSc3I0sFbkV"/>
+        <rdfs:label xml:lang="en-gb">isa_tab_ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RVhxWdczjYZw9LNF7R08yz -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RVhxWdczjYZw9LNF7R08yz">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Product-Service-Production Ontologies</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RWH2Qq1GPDX5CkzubK3G9A -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RWH2Qq1GPDX5CkzubK3G9A">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Universal Standard Products and Services Classification</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RXEvHeZl42mul011yZDd6p -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RXEvHeZl42mul011yZDd6p">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">ADACOR</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RdXev5Rq1JWWFOgbPhq3yS -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RdXev5Rq1JWWFOgbPhq3yS">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Product Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/Rdny063ayo8dzVvAPq08sv -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/Rdny063ayo8dzVvAPq08sv">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">eNanomapper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/ReHlg1z44mAxBt8piCtedK -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/ReHlg1z44mAxBt8piCtedK">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">Context Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/ReUKMGjV2kD9N7Er1QM3AM -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/ReUKMGjV2kD9N7Er1QM3AM">
+        <rdf:type rdf:resource="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG"/>
+        <rdfs:label xml:lang="en-gb">RESPOND Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/Rhby8jW44PjswNdEA2fpmH -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/Rhby8jW44PjswNdEA2fpmH">
+        <rdf:type rdf:resource="http://ontocommons.eu/R9YIW6d0QfpoAnIRs5kuOI6"/>
+        <rdf:type rdf:resource="http://ontocommons.eu/RCVPez3G48oZXIuSLfW7tSE"/>
+        <rdf:type rdf:resource="http://ontocommons.eu/RDErfp7mDUDDcm9LTURaFUx"/>
+        <ontocommons:RCktCiapECDG0pug8KFSDIl rdf:resource="https://github.com/iamcrowd"/>
+        <ontocommons:RHTpKJo5P5uzPu3S2gwqqF rdf:resource="https://crowd-app.fi.uncoma.edu.ar/"/>
+        <ontocommons:RQwIeTS8dFYtOXkJtOgHRj rdf:resource="https://github.com/iamcrowd"/>
+        <ontocommons:RsXHq4FwMlsRjBQ92PFibA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German Braun, Giuliano Marinelli, Emiliano Rios Gavagnin, Laura Cecchi, Pablo Fillottrani. Web Interoperability for Ontology Development and Support with crowd 2.0 Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence Demo Track. Pages 4980-4983. https://doi.org/10.24963/ijcai.2021/707</ontocommons:RsXHq4FwMlsRjBQ92PFibA>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The intention of the tool is to involve domain experts and users in modelling tasks by adopting standard CDMLs, providing visual support for them, and logic-based reconstructions (in addition to OWL 2 serialisations) for knowledge engineers. The tool is fully integrated with a powerful logic-based reasoning server acting as a background inference engine. That reasoning is relative to the diagram’s graphical syntax so that users will see the original model graphically completed with all the deductions that are expressed in the graphical language itself. crowd focuses on graphical modelling of CDMs (and ontologies) at the type level, and does not
+consider individuals. It is compliant with W3C standards by allowing the definition of global naming schemes as well as the export of specifications to OWL 2 to interoperate with other tools.</dc:description>
+        <rdfs:label xml:lang="en-gb">crowd-tool</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RhgxjhT2nbRnrxnhxGe7M6 -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RhgxjhT2nbRnrxnhxGe7M6">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">Materials Design Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RhjUTwzqrhgbaXVbinoZpy -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RhjUTwzqrhgbaXVbinoZpy">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">CDM_Code</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/Rhuau4sszOzm97CtHhSBhC -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/Rhuau4sszOzm97CtHhSBhC">
+        <rdf:type rdf:resource="http://ontocommons.eu/RD3EMxrtmAN4jXHRaG76Cqf"/>
+        <rdfs:label xml:lang="en-gb">An Ontological Approach to Representing the Product Life Cycle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RpFdxcluV9xfPYvqUxrxNL -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RpFdxcluV9xfPYvqUxrxNL">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">MDO-FULL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/Rsilmp4SIuY1Y0DxLHfEbn -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/Rsilmp4SIuY1Y0DxLHfEbn">
+        <rdf:type rdf:resource="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG"/>
+        <rdfs:label xml:lang="en-gb">Discrete-event Modeling Ontology</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RuMZ56a5S8s3CUavMeTHnI -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RuMZ56a5S8s3CUavMeTHnI">
+        <rdf:type rdf:resource="http://ontocommons.eu/RCKRK8YcgEJqET0jC7CQgZW"/>
+        <rdfs:label xml:lang="en-gb">Flexinet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontocommons.eu/RvmIXwnvqPeXjBocGRHQ8U -->
+
+    <owl:NamedIndividual rdf:about="http://ontocommons.eu/RvmIXwnvqPeXjBocGRHQ8U">
+        <rdf:type rdf:resource="http://ontocommons.eu/R99DqOf7COdzCiUNVzC3gKG"/>
+        <rdfs:label xml:lang="en-gb">iiRDS (intelligent information Request and Delivery Standard)</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
